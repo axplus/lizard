@@ -1,33 +1,34 @@
-from distutils.core import setup
+from setuptools import setup
+import axplus 
 
 setup(
-    # Application name:
-    name="axplus",
+    # # Application name:
+    # name="axplus",
 
-    # Version number (initial):
-    version="0.1.0",
+    # # Version number (initial):
+    version=axplus.__version__,#"0.1.1",
 
-    # Application author details:
-    author="yijie zeng",
-    author_email="axplus@163.com",
+    # # Application author details:
+    # author="yijie zeng",
+    # author_email="axplus@163.com",
 
-    # Packages
-    packages=["axplus"],
+    # # Packages
+    # packages=["axplus"],
 
-    # Include additional files into the package
-    include_package_data=True,
+    # # Include additional files into the package
+    # include_package_data=True,
 
-    # Details
-    url="http://pypi.python.org/pypi/axplus/",
+    # # Details
+    # url="http://pypi.python.org/pypi/axplus/",
 
-    #
-    # license="LICENSE.txt",
-    description="Reactive for server-side rendering",
+    # #
+    # # license="LICENSE.txt",
+    # description="Reactive for server-side rendering",
 
-    # long_description=open("README.txt").read(),
+    # # long_description=open("README.txt").read(),
 
-    # Dependent packages (distributions)
-    install_requires=[
-        "django>=2.2",
-    ],
+    # # Dependent packages (distributions)
+    # install_requires=[
+    #     "django>=2.2",
+    # ],
 )

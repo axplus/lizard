@@ -2,7 +2,7 @@ import logging
 
 from django import shortcuts
 
-from axpluslib.htmlcomponents import HTMLComponent
+from .htmlcomponents import HTMLComponent
 
 __all__ = ['render']
 

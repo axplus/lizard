@@ -1,7 +1,7 @@
 from django.utils.deprecation import MiddlewareMixin
 
-from axpluslib.base import Component
-from axpluslib.django import render
+from .base import Component
+from .django import render
 
 
 class _HtmlWrapper:
