@@ -1,12 +1,15 @@
 from setuptools import setup
-import axplus 
+import axplus
+
+# from glob import glob
+
 
 setup(
     # # Application name:
     # name="axplus",
 
     # # Version number (initial):
-    version=axplus.__version__,#"0.1.1",
+    version=axplus.__version__,  # "0.1.1",
 
     # # Application author details:
     # author="yijie zeng",
@@ -31,4 +34,8 @@ setup(
     # install_requires=[
     #     "django>=2.2",
     # ],
+    # data_files=[
+    #     ('templates',glob('axplus/templates/*')),
+    #     ('static',glob('axplus/static/*'))
+    # ]
 )
