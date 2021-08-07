@@ -1,6 +1,6 @@
-# axplus
+# Lizard
 
-Reactive template rendering from Django views.
+Reactive template rendering from Django server views.
 
 ## Installation
 
