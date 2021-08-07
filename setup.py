@@ -6,17 +6,17 @@ import axplus
 
 setup(
     # # Application name:
-    # name="axplus",
+    # name="lizard",
 
     # # Version number (initial):
-    version=axplus.__version__,  # "0.1.1",
+    version=lizard.__version__,
 
     # # Application author details:
     # author="yijie zeng",
     # author_email="axplus@163.com",
 
     # # Packages
-    # packages=["axplus"],
+    # packages=["lizard"],
 
     # # Include additional files into the package
     # include_package_data=True,
