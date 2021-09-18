@@ -7,7 +7,7 @@ Reactive template rendering from Django server views.
 From pip:
 
 ```
-pip install axplus
+pip install lizard
 ```
 
 Add codes into settings.py of your Django project:
@@ -15,12 +15,12 @@ Add codes into settings.py of your Django project:
 ```python
 INSTALLED_APPS = [
     ...
-    'axplus',
+    'lizard',
 ]
 
 MIDDLEWARE = [
     ...
-    'axplus.middleware.VdomConverter',
+    'lizard.middleware.VdomConverter',
 ]
 ```
 
@@ -36,7 +36,7 @@ def index(request):
 More complex:
 
 ```python
-from axplus.base import Component
+from lizard.base import Component
 
 class WelcomePage(Component):
     def render(self):

@@ -71,7 +71,7 @@ def render(request, elm, title=None):
     html = dom.tohtml()  # convert_to_html(dom)
 
     return shortcuts.render(
-        request, 'axpluslib/base.html',
+        request, 'lizard/base.html',
         context={
             'title': title,
             'body': html

@@ -1,5 +1,5 @@
 from setuptools import setup
-import axplus
+import lizard
 
 # from glob import glob
 
@@ -22,7 +22,7 @@ setup(
     # include_package_data=True,
 
     # # Details
-    # url="http://pypi.python.org/pypi/axplus/",
+    # url="http://pypi.python.org/pypi/lizard/",
 
     # #
     # # license="LICENSE.txt",
@@ -35,7 +35,7 @@ setup(
     #     "django>=2.2",
     # ],
     # data_files=[
-    #     ('templates',glob('axplus/templates/*')),
-    #     ('static',glob('axplus/static/*'))
+    #     ('templates',glob('lizard/templates/*')),
+    #     ('static',glob('lizard/static/*'))
     # ]
 )
